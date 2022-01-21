@@ -1,0 +1,17 @@
+CREATE DATABASE postgre;
+
+CREATE DATABASE mySQL;
+
+CREATE DATABASE Server;
+
+\l
+
+DROP DATABASE server;
+
+\l
+
+CREATE DATABASE postgresql;
+CREATE TABLE person(name VARCHAR(100));
+INSERT INTO person VALUES('Person');
+SELECT * FROM person;
+
